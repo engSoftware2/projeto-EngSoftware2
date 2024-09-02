@@ -1,5 +1,12 @@
 # Projeto Sistema de Gerenciamento de Projetos Arquitetônicos
-Repositório para a matéria Engenharia de Software II - FATEC-SO
+Repositório para a matéria Engenharia de Software II - FATEC-SO - 2024/2
+
+## Membros do Projeto
+```
+ - Eros Secundus Canto
+ - Luciana Tiemi Shimoyama
+ - Vitor Hugo Santana
+```
 
 ## Tema
 Plataforma de integração entre profissionais de Arquitetura e áreas correlatas com seus clientes.
@@ -44,13 +51,10 @@ O Foco de usuários são escritórios de arquitetura de pequeno e médio porte, 
    - Visualizar projetos;
    - Fazer upload de orçamentos e contratos.
 
-## Membros do Projeto
- - Eros Secundus Canto
- - Luciana Tiemi Shimoyama
- - Vitor Hugo Santana
+## Personas
+Uma versão atualizada das personas de usuário definidas nesse projeto pode ser encontrada [aqui](https://docs.google.com/presentation/d/1sRGfyo2ZArxzj43Udp9Zo00W071zYn_h9YVnvCeJRuI/edit?usp=sharing).
 
 ## Pré-requisitos do projeto
  - [ ] Mínimo de 5 telas;
  - [ ] Mínimo de 5 tabelas;
  - [ ] Mínimo de 2 relatórios
-
