@@ -1,12 +1,14 @@
-# Projeto Sistema de Gerenciamento de Projetos Arquitetônicos
-Repositório para a matéria Engenharia de Software II - FATEC-SO - 2024/2
+# ArchSpot
+Plataforma de Gerenciamento de Projetos Arquitetônicos
+
+> Repositório para a matéria Engenharia de Software II - FATEC-SO - 2024/2
 
 ## Membros do Projeto
-```
- - Eros Secundus Canto
- - Luciana Tiemi Shimoyama
- - Vitor Hugo Santana
-```
+
+ - [Eros Secundus Canto](https://github.com/erossecundus)
+ - [Luciana Tiemi Shimoyama](https://github.com/lucitiemi)
+ - [Vitor Hugo Santana](https://github.com/Vituuuuu)
+
 
 ## Tema
 Plataforma de integração entre profissionais de Arquitetura e áreas correlatas com seus clientes.
