@@ -54,6 +54,9 @@ O Foco de usuários são escritórios de arquitetura de pequeno e médio porte, 
 ## Personas
 Uma versão atualizada das personas de usuário definidas nesse projeto pode ser encontrada [aqui](https://docs.google.com/presentation/d/1sRGfyo2ZArxzj43Udp9Zo00W071zYn_h9YVnvCeJRuI/edit?usp=sharing).
 
+## Jonada do Usuário
+O mapa das jorandas dos usuários pode ser encontrado [aqui](https://docs.google.com/spreadsheets/d/1949en0Z9xyyAUvHKAskodha9thMEoVzjzTD_Y0P2tUw/edit?usp=sharing).
+
 ## Pré-requisitos do projeto
  - [ ] Mínimo de 5 telas;
  - [ ] Mínimo de 5 tabelas;
