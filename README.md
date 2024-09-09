@@ -57,7 +57,12 @@ O Foco de usuários são escritórios de arquitetura de pequeno e médio porte, 
 Uma versão atualizada das personas de usuário definidas nesse projeto pode ser encontrada [aqui](https://docs.google.com/presentation/d/1sRGfyo2ZArxzj43Udp9Zo00W071zYn_h9YVnvCeJRuI/edit?usp=sharing).
 
 ## Jonada do Usuário
-O mapa das jorandas dos usuários pode ser encontrado [aqui](https://docs.google.com/spreadsheets/d/1949en0Z9xyyAUvHKAskodha9thMEoVzjzTD_Y0P2tUw/edit?usp=sharing).
+Para esse projeto, a jornada do usuário é desenvolvida a partir do **mapa das jornadas** e pelas **histórias de usuário**.
+- O *mapa das jornadas* dos usuários pode ser encontrado [aqui](https://docs.google.com/spreadsheets/d/1949en0Z9xyyAUvHKAskodha9thMEoVzjzTD_Y0P2tUw/edit?usp=sharing).
+- As *histórias de usuários* podem ser encontradas [aqui](https://docs.google.com/spreadsheets/d/1j_ByA6TTx74EM0C7ko6JCeuAwgFLfdyNaMeFRW3zSKg/edit?usp=sharing).
+
+## Protótipo
+O desenvolvimento do protótipo de baixa fidelidade pode ser acompanhado por [aqui](https://drive.google.com/drive/folders/1gVfYscVSYzOD_l87juAJuiQulD32I1zu?usp=sharing)
 
 ## Pré-requisitos do projeto
  - [ ] Mínimo de 5 telas;
