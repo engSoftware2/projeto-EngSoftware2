@@ -13,7 +13,7 @@ Plataforma de Gerenciamento de Projetos Arquitetônicos
 ## Tema
 Plataforma de integração entre profissionais de Arquitetura e áreas correlatas com seus clientes.
 
-Uma necessidade comum dos profissionais e clientes durante as fases de elaboração do projeto ou mesmo já na execução da obra é uma forma de centralizar informações pertinentes como cronogramas ou atas de reuniões, além das documentações e versões do projeto.
+Uma necessidade comum dos _profissionais e clientes_ durante as fases de elaboração do projeto ou mesmo já na execução da obra é uma forma de **centralizar** informações pertinentes como **cronogramas** ou atas de **reuniões**, além das **documentações** e **versões** do projeto.
 
 Nesse sentido, o sistema, primeiramente desenvolvido como uma aplicação web e acessada pelo navegador, deve contemplar serviços de upload de arquivos, troca de mensagens e consultas.
 O Foco de usuários são escritórios de arquitetura de pequeno e médio porte, com interfaces distintas para arquiteto, cliente, projetistas e fornecedores.
@@ -53,17 +53,19 @@ O Foco de usuários são escritórios de arquitetura de pequeno e médio porte, 
    - Visualizar projetos;
    - Fazer upload de orçamentos e contratos.
 
-## Personas
-Saiba mais sobre as [*personas de usuário*](https://docs.google.com/presentation/d/1sRGfyo2ZArxzj43Udp9Zo00W071zYn_h9YVnvCeJRuI/edit?usp=sharing).
+## Concepção
+O desenvolvimento da etapa de concepção do projeto consiste na elaboração das _Personas_, das _Jornadas do Usuário_ e dos primeiros rascunhos para o _Protótipo de Baixa Fidelidade_.
+### Personas
+- Saiba mais sobre as **Personas de usuário** [aqui](https://docs.google.com/presentation/d/1sRGfyo2ZArxzj43Udp9Zo00W071zYn_h9YVnvCeJRuI/edit?usp=sharing).
 
-## Jonada do Usuário
-Para esse projeto, a jornada do usuário é desenvolvida a partir do **mapa das jornadas** e pelas **histórias de usuário**.
-- Explore o [*mapa das jornadas*](https://docs.google.com/spreadsheets/d/1949en0Z9xyyAUvHKAskodha9thMEoVzjzTD_Y0P2tUw/edit?usp=sharing).
-- Conheça as [*histórias de usuários*](https://docs.google.com/spreadsheets/d/1j_ByA6TTx74EM0C7ko6JCeuAwgFLfdyNaMeFRW3zSKg/edit?usp=sharing).
+### Jonada do Usuário
+- Explore o **Mapa das Jornadas** [aqui](https://docs.google.com/spreadsheets/d/1949en0Z9xyyAUvHKAskodha9thMEoVzjzTD_Y0P2tUw/edit?usp=sharing).
+- Conheça as **Histórias de Usuário** [aqui](https://docs.google.com/spreadsheets/d/1j_ByA6TTx74EM0C7ko6JCeuAwgFLfdyNaMeFRW3zSKg/edit?usp=sharing).
+- Entenda o **Diário de Usuário** [aqui](https://docs.google.com/spreadsheets/d/1QT7FeWcpSWCD6w4JIW9VV4grJma3GNqNFpB3rF5jF2M/edit?usp=sharing).
+- Um diagrama preliminar de **Caso de Uso** [aqui](useCases.png).
 
-## Protótipo
-- Diagrama de [*caso de uso*](useCases.png)
-- Acompanhe o desenvolvimento do [*protótipo de baixa fidelidade*](https://drive.google.com/file/d/1Xmxtjj6oIGZW7P_-C_xhEw7RNmidSin1/view?usp=drive_link)
+### Protótipo
+- Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://drive.google.com/file/d/1Xmxtjj6oIGZW7P_-C_xhEw7RNmidSin1/view?usp=drive_link).
 
 ## Pré-requisitos do projeto
  - [ ] Mínimo de 5 telas;
