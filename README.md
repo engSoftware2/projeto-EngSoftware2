@@ -62,7 +62,7 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Explore o **Mapa das Jornadas** [aqui](https://docs.google.com/spreadsheets/d/1949en0Z9xyyAUvHKAskodha9thMEoVzjzTD_Y0P2tUw/edit?usp=sharing).
 - Conheça as **Histórias de Usuário** [aqui](https://docs.google.com/spreadsheets/d/1j_ByA6TTx74EM0C7ko6JCeuAwgFLfdyNaMeFRW3zSKg/edit?usp=sharing).
 - Entenda o **Diário de Usuário** [aqui](https://docs.google.com/spreadsheets/d/1QT7FeWcpSWCD6w4JIW9VV4grJma3GNqNFpB3rF5jF2M/edit?usp=sharing).
-- Um diagrama preliminar de **Caso de Uso** [aqui](useCases.png).
+- Um diagrama preliminar de **Caso de Uso** [aqui](Diagrama-caso-de-uso.jpg).
 
 ### Protótipo
 - Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://drive.google.com/file/d/1Xmxtjj6oIGZW7P_-C_xhEw7RNmidSin1/view?usp=drive_link).
