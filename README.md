@@ -65,7 +65,7 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Um diagrama preliminar de **Caso de Uso** [aqui](Diagrama-caso-de-uso.jpg).
 
 ### Protótipo
-- Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://drive.google.com/file/d/1Xmxtjj6oIGZW7P_-C_xhEw7RNmidSin1/view?usp=drive_link).
+- Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://drive.google.com/drive/folders/1gVfYscVSYzOD_l87juAJuiQulD32I1zu?usp=sharing).
 
 ## Pré-requisitos do projeto
  - [ ] Mínimo de 5 telas;
