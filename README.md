@@ -65,6 +65,8 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Um diagrama preliminar de **Caso de Uso** [aqui](Diagrama-caso-de-uso.jpg).
 
 ### Protótipo de Baixa Fidelidade
+- Veja o **diagrama de fluxo** das telas [aqui](https://lucid.app/lucidspark/47db5361-0695-44ba-b052-e111ac3e9673/edit?viewport_loc=3436%2C518%2C3840%2C1844%2C0_0&invitationId=inv_adb1aa17-e0e0-438d-887d-abf8feea4949).
+- Leia o **descritivo de telas** [aqui](https://docs.google.com/document/d/1yUhtdYXbvCQlh7XOV9IoIi8wEIdUzvh2cp0wVSHtAR0/edit?usp=sharing).
 - Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://miro.com/app/board/uXjVLWLmPDU=/?share_link_id=5262047678480).
 - Os rascunhos originais podem ser conferidos [aqui](https://drive.google.com/drive/folders/1gVfYscVSYzOD_l87juAJuiQulD32I1zu?usp=sharing).
 
