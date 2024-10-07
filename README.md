@@ -64,8 +64,9 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Entenda o **Diário de Usuário** [aqui](https://docs.google.com/spreadsheets/d/1QT7FeWcpSWCD6w4JIW9VV4grJma3GNqNFpB3rF5jF2M/edit?usp=sharing).
 - Um diagrama preliminar de **Caso de Uso** [aqui](Diagrama-caso-de-uso.jpg).
 
-### Protótipo
-- Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://drive.google.com/drive/folders/1gVfYscVSYzOD_l87juAJuiQulD32I1zu?usp=sharing).
+### Protótipo de Baixa Fidelidade
+- Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://miro.com/app/board/uXjVLWLmPDU=/?share_link_id=5262047678480).
+- Os rascunhos originais podem ser conferidos [aqui](https://drive.google.com/drive/folders/1gVfYscVSYzOD_l87juAJuiQulD32I1zu?usp=sharing).
 
 ## Pré-requisitos do projeto
  - [ ] Mínimo de 5 telas;
