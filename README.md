@@ -70,7 +70,10 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Acompanhe o desenvolvimento do **protótipo de baixa fidelidade** [aqui](https://miro.com/app/board/uXjVLWLmPDU=/?share_link_id=5262047678480).
 - Os rascunhos originais podem ser conferidos [aqui](https://drive.google.com/drive/folders/1gVfYscVSYzOD_l87juAJuiQulD32I1zu?usp=sharing).
 
+## Entrega Parcial
+- O **vídeo** de apresentação da entrega parcial pode ser visto [aqui](https://youtu.be/9mBBVEJD43M?si=0aBZlrPVU3hxVvjq)
+
 ## Pré-requisitos do projeto
- - [ ] Mínimo de 5 telas;
+ - [x] Mínimo de 5 telas;
  - [ ] Mínimo de 5 tabelas;
  - [ ] Mínimo de 2 relatórios
