@@ -62,7 +62,7 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Explore o **Mapa das Jornadas** [aqui](https://docs.google.com/spreadsheets/d/1949en0Z9xyyAUvHKAskodha9thMEoVzjzTD_Y0P2tUw/edit?usp=sharing).
 - Conheça as **Histórias de Usuário** [aqui](https://docs.google.com/spreadsheets/d/1j_ByA6TTx74EM0C7ko6JCeuAwgFLfdyNaMeFRW3zSKg/edit?usp=sharing).
 - Entenda o **Diário de Usuário** [aqui](https://docs.google.com/spreadsheets/d/1QT7FeWcpSWCD6w4JIW9VV4grJma3GNqNFpB3rF5jF2M/edit?usp=sharing).
-- Um diagrama preliminar de **Caso de Uso** [aqui](Diagrama-caso-de-uso.jpg).
+- Um diagrama preliminar de **Caso de Uso** [aqui](/ref/Diagrama-caso-de-uso.jpg).
 
 ### Protótipo de Baixa Fidelidade
 - Veja o **diagrama de fluxo** das telas [aqui](https://lucid.app/lucidspark/47db5361-0695-44ba-b052-e111ac3e9673/edit?viewport_loc=3436%2C518%2C3840%2C1844%2C0_0&invitationId=inv_adb1aa17-e0e0-438d-887d-abf8feea4949).
