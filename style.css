@@ -13,3 +13,19 @@ body {
 .bg-archspot {
   background-color: #FBECDA;
 }
+.bg-archspot-samambaia {
+  background-color: #78A58B;
+}
+.bg-archspot-coral {
+  background-color: #E0968F;
+}
+.bg-archspot-ceramica {
+  background-color: #B4585D;
+}
+.bg-archspot-petroleo {
+  background-color: #19535F;
+}
+.image-square {
+  aspect-ratio: 1 / 1; /* Mantém a proporção 1:1 */
+  overflow: hidden;
+}
