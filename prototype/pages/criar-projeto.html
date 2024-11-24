@@ -35,7 +35,7 @@
               <div class="col fs-4 fw-medium">Projetos em aberto</div>
               <div class="col-auto">
                 <a class="btn">
-                  <img src="/img/icons/plus-circle.svg" alt="" width="30" height="30" data-bs-toggle="modal" data-bs-target="#modalCriarProjeto">
+                  <img src="/img/icons/plus-circle.svg" alt="" width="30" height="30" data-bs-toggle="modal" data-bs-target="#modalCriarNovoProjeto">
                 </a>
               </div>
              
@@ -171,7 +171,9 @@
       </div>
       
     </div>
-    <div id="modal-criar-projeto"></div>
+    <div id="modal-criar-novo-projeto"></div>
+    <div id="modal-etapas-novo-projeto"></div>
+    <div id="modal-confirm-novo-projeto"></div>
     <div id="footer"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -180,7 +182,9 @@
     <script>
       $(function() {
         $("#navbar").load("/prototype/components/navbar/navbar.html");
-        $("#modal-criar-projeto").load("/prototype/components/modal/modal-criar-projeto.html");
+        $("#modal-criar-novo-projeto").load("/prototype/components/modal/modal-criar-novo-projeto.html");
+        $("#modal-etapas-novo-projeto").load("/prototype/components/modal/modal-etapas-novo-projeto.html");
+        $("#modal-confirm-novo-projeto").load("/prototype/components/modal/modal-confirm-novo-projeto.html");
         $("#footer").load("/prototype/components/footer/footer.html");
       })
      
