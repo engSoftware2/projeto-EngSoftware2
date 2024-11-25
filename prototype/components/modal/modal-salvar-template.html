@@ -1,0 +1,43 @@
+<!--modal - Editar Perfil-->
+<div class="modal fade" id="modalSalvarTemplate" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-4 font-logo" id="staticBackdropLabel">Criar Novo Template</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          
+          <div class="row g-3 fw-medium">
+            <form class="col">
+              <div class="mb-3">
+                <label for="campoNome" class="form-label">Nome do template:</label>
+                <input type="nome" class="form-control" id="campoNome" aria-describedby="nomeHelp" placeholder="">
+              </div>             
+              <div class="row mb-3">
+                <div class="col-3">
+                  <label for="campoEtapas" class="form-label">Etapas:</label>
+                </div>
+                <div class="col-9">
+                  <div class="d-grid gap-1">
+                    <button type="button" class="btn btn-outline-success text-start">Estudo Preliminar</button>
+                    <button type="button" class="btn btn-outline-success text-start">Anteprojeto</button>
+                    <button type="button" class="btn btn-outline-success text-start">Projeto Legal</button>
+                    <button type="button" class="btn btn-outline-success text-start">Projeto Executivo</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+                   
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalEtapasNovoProjeto">Voltar para Etapas</button>
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCriarNovoProjeto">Salvar Template</button>
+      </div>
+    </div>
+  </div>
+</div>
