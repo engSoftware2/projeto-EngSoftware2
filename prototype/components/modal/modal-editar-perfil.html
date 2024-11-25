@@ -1,0 +1,61 @@
+<div class="modal fade" id="modalEditarPerfil" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4 font-logo" id="staticBackdropLabel">Editar Perfil</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <form class="col">
+                <div class="mb-3">
+                  <label for="campoNome" class="form-label">Name:</label>
+                  <input type="text" class="form-control" id="campoNome" aria-describedby="nomeHelp" placeholder="Ana Carolina Medeiros">
+                </div>
+                <div class="mb-3">
+                  <label for="campoEmail" class="form-label">E-mail:</label>
+                  <input type="email" class="form-control" id="campoEmail" aria-describedby="emailHelp" placeholder="ana@email.com">
+                </div>
+                <div class="mb-3">
+                  <label for="campoSenha" class="form-label">Senha:</label>
+                  <input type="password" class="form-control" id="campoSenha" placeholder="***********">
+                </div>
+                <div class="mb-3">
+                  <label for="campoCargo" class="form-label">Profissão / Cargo:</label>
+                  <input type="text" class="form-control" id="campoCargo" aria-describedby="cargoHelp" placeholder="Arquiteta - Gerente de Projetos">
+                </div>
+                <div class="mb-3">
+                  <label for="campoTelefone" class="form-label">Telefone:</label>
+                  <input type="number" class="form-control" id="campoTelefone" aria-describedby="telefoneHelp" placeholder="(15) 99999-9999">
+                </div>
+                <div class="mb-3">
+                  <label for="campoEndereco" class="form-label">Endereço:</label>
+                  <input type="text" class="form-control" id="campoEndereco" aria-describedby="enderecoHelp" placeholder="Rua da Felicidade, 145. Sorocaba - SP">
+                </div>
+              </form>
+
+              <div class="col-auto">
+                <div class="text-center">
+                  <img src="/img/personas/ana.jpeg" class="rounded-circle border" alt="..." width="220px" height="220px">
+                  <a class="btn p-1">
+                    <img src="/img/icons/upload.svg" alt="" width="25" height="25">
+                  </a>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#msgSalvar">
+            Salvar
+          </button>
+          
+        </div>
+      </div>
+    </div>
+</div>
+
