@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-auto p-0">
                       <a class="btn">
-                        <img src="/img/icons/plus-circle.svg" alt="" width="30" height="30">
+                        <img src="/img/icons/plus-circle.svg" alt="" width="30" height="30" data-bs-toggle="modal" data-bs-target="#modalCriarNovaParcela">
                       </a>
                     </div>
                    
@@ -46,13 +46,9 @@
 
                 <!--pagamento 1-->
                 <div class="row align-items-center gap-4">
-                    <div class="col-4">
-                        <div class="form-check form-check-reverse position">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                            <label class="form-check-label fw-semibold fs-5 me-4" for="exampleRadios1">
-                              Parcela 1
-                            </label>
-                        </div>
+                    <div class="col-4 text-end">
+                        <span class="fw-semibold fs-5 me-4">Parcela 1</span>
+                        <img src="/img/icons/check-circle-fill.svg" class="mb-2" alt="" width="20" height="20">
                     </div>
                     <div class="col">
                         <div class="card w-75 mb-3 bg-success p-2 text-dark bg-opacity-10 shadow">
@@ -62,9 +58,10 @@
                                         <h5 class="card-title font-logo fw-semibold">Pagamento 1/6</h5>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="#">
-                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25">
+                                        <a class="btn p-0">
+                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25" data-bs-toggle="modal" data-bs-target="#modalAlterarParcela">
                                         </a>
+
                                     </div>
         
                                     <hr>
@@ -84,13 +81,9 @@
 
                 <!--pagamento 2-->
                 <div class="row align-items-center gap-4">
-                    <div class="col-4">
-                        <div class="form-check form-check-reverse position">
-                            <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2" checked>
-                            <label class="form-check-label fw-semibold fs-5 me-4" for="exampleRadios1">
-                              Parcela 2
-                            </label>
-                        </div>
+                    <div class="col-4 text-end">
+                        <span class="fw-semibold fs-5 me-4">Parcela 2</span>
+                        <img src="/img/icons/check-circle-fill.svg" class="mb-2" alt="" width="20" height="20">
                     </div>
                     <div class="col">
                         <div class="card w-75 mb-3 bg-success p-2 text-dark bg-opacity-10 shadow">
@@ -100,8 +93,8 @@
                                         <h5 class="card-title font-logo fw-semibold">Pagamento 2/6</h5>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="#">
-                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25">
+                                        <a class="btn p-0">
+                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25" data-bs-toggle="modal" data-bs-target="#modalAlterarParcela">
                                         </a>
                                     </div>
         
@@ -122,13 +115,9 @@
 
                 <!--pagamento 3-->
                 <div class="row align-items-center gap-4">
-                    <div class="col-4">
-                        <div class="form-check form-check-reverse position">
-                            <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios2" value="option2">
-                            <label class="form-check-label fw-semibold fs-5 me-4" for="exampleRadios1">
-                              Parcela 3
-                            </label>
-                        </div>
+                    <div class="col-4 text-end">
+                        <span class="fw-semibold fs-5 me-4">Parcela 3</span>
+                        <img src="/img/icons/circle.svg" class="mb-2" alt="" width="20" height="20">
                     </div>
                     <div class="col">
                         <div class="card w-75 mb-3 bg-danger p-2 text-dark bg-opacity-10 shadow">
@@ -138,8 +127,8 @@
                                         <h5 class="card-title font-logo fw-semibold">Pagamento 3/6</h5>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="#">
-                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25">
+                                        <a class="btn p-0">
+                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25" data-bs-toggle="modal" data-bs-target="#modalAlterarParcela">
                                         </a>
                                     </div>
         
@@ -153,7 +142,7 @@
                                         <p class="card-text">Previsão de pagamento: 02/01/2025</p>
                                     </div>
                                     <div class="col-auto text-end">
-                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border">Gerar QR</a>
+                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border" data-bs-toggle="modal" data-bs-target="#modalGerarQrcode">Gerar QR</a>
                                     </div>
                                 </div>
                             </div>
@@ -163,13 +152,9 @@
 
                 <!--pagamento 4-->
                 <div class="row align-items-center gap-4">
-                    <div class="col-4">
-                        <div class="form-check form-check-reverse position">
-                            <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios2" value="option2">
-                            <label class="form-check-label fw-semibold fs-5 me-4" for="exampleRadios1">
-                              Parcela 4
-                            </label>
-                        </div>
+                    <div class="col-4 text-end">
+                        <span class="fw-semibold fs-5 me-4">Parcela 4</span>
+                        <img src="/img/icons/circle.svg" class="mb-2" alt="" width="20" height="20">
                     </div>
                     <div class="col">
                         <div class="card w-75 mb-3 bg-danger p-2 text-dark bg-opacity-10 shadow">
@@ -179,8 +164,8 @@
                                         <h5 class="card-title font-logo fw-semibold">Pagamento 4/6</h5>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="#">
-                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25">
+                                        <a class="btn p-0">
+                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25" data-bs-toggle="modal" data-bs-target="#modalAlterarParcela">
                                         </a>
                                     </div>
         
@@ -194,7 +179,7 @@
                                         <p class="card-text">Previsão de pagamento: 24/02/2025</p>
                                     </div>
                                     <div class="col-auto text-end">
-                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border">Gerar QR</a>
+                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border" data-bs-toggle="modal" data-bs-target="#modalGerarQrcode">Gerar QR</a>
                                     </div>
                                 </div>
                             </div>
@@ -204,13 +189,9 @@
 
                 <!--pagamento 5-->
                 <div class="row align-items-center gap-4">
-                    <div class="col-4">
-                        <div class="form-check form-check-reverse position">
-                            <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios2" value="option2">
-                            <label class="form-check-label fw-semibold fs-5 me-4" for="exampleRadios1">
-                              Parcela 5
-                            </label>
-                        </div>
+                    <div class="col-4 text-end">
+                        <span class="fw-semibold fs-5 me-4">Parcela 5</span>
+                        <img src="/img/icons/circle.svg" class="mb-2" alt="" width="20" height="20">
                     </div>
                     <div class="col">
                         <div class="card w-75 mb-3 bg-danger p-2 text-dark bg-opacity-10 shadow">
@@ -220,8 +201,8 @@
                                         <h5 class="card-title font-logo fw-semibold">Pagamento 5/6</h5>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="#">
-                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25">
+                                        <a class="btn p-0">
+                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25" data-bs-toggle="modal" data-bs-target="#modalAlterarParcela">
                                         </a>
                                     </div>
         
@@ -235,7 +216,7 @@
                                         <p class="card-text">Previsão de pagamento: 03/04/2025</p>
                                     </div>
                                     <div class="col-auto text-end">
-                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border">Gerar QR</a>
+                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border" data-bs-toggle="modal" data-bs-target="#modalGerarQrcode">Gerar QR</a>
                                     </div>
                                 </div>
                             </div>
@@ -245,13 +226,9 @@
 
                 <!--pagamento 6-->
                 <div class="row align-items-center gap-4">
-                    <div class="col-4">
-                        <div class="form-check form-check-reverse position">
-                            <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios2" value="option2">
-                            <label class="form-check-label fw-semibold fs-5 me-4" for="exampleRadios1">
-                              Parcela 6
-                            </label>
-                        </div>
+                    <div class="col-4 text-end">
+                        <span class="fw-semibold fs-5 me-4">Parcela 6</span>
+                        <img src="/img/icons/circle.svg" class="mb-2" alt="" width="20" height="20">
                     </div>
                     <div class="col">
                         <div class="card w-75 mb-3 bg-danger p-2 text-dark bg-opacity-10 shadow">
@@ -261,8 +238,8 @@
                                         <h5 class="card-title font-logo fw-semibold">Pagamento 6/6</h5>
                                     </div>
                                     <div class="col-auto">
-                                        <a href="#">
-                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25">
+                                        <a class="btn p-0">
+                                            <img src="/img/icons/pencil-square.svg" class="mb-2" alt="" width="25" height="25" data-bs-toggle="modal" data-bs-target="#modalAlterarParcela">
                                         </a>
                                     </div>
         
@@ -276,7 +253,7 @@
                                         <p class="card-text">Pago em: 15/05/2025</p>
                                     </div>
                                     <div class="col-auto text-end">
-                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border">Gerar QR</a>
+                                        <a href="#" class="btn btn-primary btn-sm bg-archspot-berinjela border" data-bs-toggle="modal" data-bs-target="#modalGerarQrcode">Gerar QR</a>
                                     </div>
                                 </div>
                             </div>
@@ -287,7 +264,11 @@
             </div>
         </div>   
     </div>
-    
+
+    <div id="modal-criar-nova-parcela"></div>
+    <div id="modal-alterar-parcela"></div>
+    <div id="modal-gerar-qrcode"></div>
+
     <div id="footer"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -296,6 +277,9 @@
     <script>
       $(function() {
         $("#navbar").load("/prototype/components/navbar/navbar.html");
+        $("#modal-criar-nova-parcela").load("/prototype/components/modal/modal-criar-nova-parcela.html");
+        $("#modal-alterar-parcela").load("/prototype/components/modal/modal-alterar-parcela.html");
+        $("#modal-gerar-qrcode").load("/prototype/components/modal/modal-gerar-qrcode.html");
         $("#footer").load("/prototype/components/footer/footer.html");
       })
      

@@ -1,0 +1,66 @@
+<div class="modal fade" id="modalAlterarParcela" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4 font-logo" id="staticBackdropLabel">Alterar Parcela</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            
+            <div class="row g-3 fw-medium">
+              <form class="col">
+
+                <div class="mb-3">
+                    <label for="campoNome" class="form-label">Valor:</label>
+                    <div class="input-group">
+                        <span class="input-group-text">R$</span>
+                        <input type="text" class="form-control" id="campoNome" aria-label="Amount (to the nearest dollar)" placeholder="5.000">
+                        <span class="input-group-text">,00</span>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                  <label for="campoDescricao" class="form-label">Descrição:</label>
+                  <textarea type="text" class="form-control" id="campoDescricao" aria-describedby="descricao" placeholder="Pagamento inicial"></textarea>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="campoPrevPgto" class="form-label">Previsão de pagamento:</label>
+                    <input type="date" class="form-control" id="campoNome" aria-describedby="nomeHelp" value="2024-11-25">
+                </div>
+
+                <div class="mb-3">
+                    <label for="inlineRadio1" class="form-label me-2 mb-0">Status:</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                        <label class="form-check-label" for="inlineRadio1">pendente</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">pago</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">cancelado</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="campoPgto" class="form-label">Data do Pagamento:</label>
+                    <input type="date" class="form-control" id="campoPgto" aria-describedby="pgtoHelp" disabled>
+                </div>
+
+              </form>
+            </div>
+                     
+          </div>
+  
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Salvar Alterações</button>
+        </div>
+      </div>
+    </div>
+  </div>
