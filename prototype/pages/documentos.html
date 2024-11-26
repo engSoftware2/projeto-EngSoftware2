@@ -1,0 +1,1182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArchSpot - Documentos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+
+  <div class="container">
+
+    <!--CABEÇALHO-->
+    <div class="row mt-2 p-4">
+      <p class="fs-1 font-logo d-flex align-items-center">
+        <a class="btn p-1">
+          <img src="/img/icons/chevron-double-left.svg" alt="" width="30" height="30">
+        </a>
+        Documentos
+      </p>
+      <hr>
+    </div>
+
+    <!--BODY-->
+    <div class="row p-4 mb-4">
+      <div class="col">
+        <div class="bg-white rounded-2 p-4">
+
+          <!--nav-tab-->
+          <nav>
+            <div class="nav nav-tabs fs-5" id="nav-tab" role="tablist">
+
+              <button class="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1" type="button"
+                role="tab" aria-controls="nav-1" aria-selected="true">
+                Atas de Reunião
+              </button>
+              <button class="nav-link" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2" type="button"
+                role="tab" aria-controls="nav-2" aria-selected="true">
+                Proposta Orçamentária
+              </button>
+              <button class="nav-link" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3" type="button"
+                role="tab" aria-controls="nav-3" aria-selected="true">
+                Contrato
+              </button>
+              <button class="nav-link" id="nav-4-tab" data-bs-toggle="tab" data-bs-target="#nav-4" type="button"
+                role="tab" aria-controls="nav-4" aria-selected="true">
+                Levatamentos
+              </button>
+              <button class="nav-link" id="nav-6-tab" data-bs-toggle="tab" data-bs-target="#nav-6" type="button"
+                role="tab" aria-controls="nav-6" aria-selected="true">
+                Outros Documentos
+              </button>
+
+              <a class="btn align-middle">
+                <img src="/img/icons/plus-circle.svg" alt="" width="20" height="20" data-bs-toggle="modal" data-bs-target="#modalCriarNovoDiretorio">
+              </a>
+
+            </div>
+          </nav>
+
+          <!--conteudo tab1 - Atas Reuniao--->
+          <div class="tab-content" id="nav-tabContent-arq">
+            <div class="tab-pane fade show active p-3" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
+
+              <!--tabela - Ata Reuniao-->
+              <h5>Atas Reunião</h5>
+              <hr>
+              <table class="table table-hover mt-4 align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Proprietário</th>
+                    <th scope="col">Última modif.</th>
+                    <th scope="col">Tamanho</th>
+                    <th scope="col">
+                      <a class="row btn">
+                        <img src="/img/icons/upload.svg" class="p-0" alt="" width="15" height="15">
+                      </a>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lorem ipsum dolor sit amet consectetur adipiscing elit</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/ana.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>25/11/2024</td>
+                    <td>675 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sed vitae arcu cursus nibh ornare vulputate</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>379 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Nulla bibendum urna id est ornare auctor</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>145 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Vivamus in nunc tincidunt, porttitor justo in</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>445 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+          <!--conteudo tab2 - Prop Orçam--->
+          <div class="tab-content" id="nav-tabContent-arq">
+            <div class="tab-pane fade p-3" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+
+              <!--tabela - Prop Orçam-->
+              <h5>Proposta Orçamentária</h5>
+              <hr>
+              <table class="table table-hover mt-4 align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Proprietário</th>
+                    <th scope="col">Última modif.</th>
+                    <th scope="col">Tamanho</th>
+                    <th scope="col">
+                      <a class="row btn">
+                        <img src="/img/icons/upload.svg" class="p-0" alt="" width="15" height="15">
+                      </a>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lorem ipsum dolor sit amet consectetur adipiscing elit</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/ana.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>25/11/2024</td>
+                    <td>675 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sed vitae arcu cursus nibh ornare vulputate</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>379 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Nulla bibendum urna id est ornare auctor</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>145 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Vivamus in nunc tincidunt, porttitor justo in</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>445 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+          <!--conteudo tab3 - Contrato--->
+          <div class="tab-content" id="nav-tabContent-arq">
+            <div class="tab-pane fade p-3" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
+
+              <!--tabela - Contrato-->
+              <h5>Contrato</h5>
+              <hr>
+              <table class="table table-hover mt-4 align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Proprietário</th>
+                    <th scope="col">Última modif.</th>
+                    <th scope="col">Tamanho</th>
+                    <th scope="col">
+                      <a class="row btn">
+                        <img src="/img/icons/upload.svg" class="p-0" alt="" width="15" height="15">
+                      </a>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lorem ipsum dolor sit amet consectetur adipiscing elit</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/ana.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>25/11/2024</td>
+                    <td>675 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sed vitae arcu cursus nibh ornare vulputate</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>379 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Nulla bibendum urna id est ornare auctor</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>145 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Vivamus in nunc tincidunt, porttitor justo in</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>445 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+          <!--conteudo tab4 - Levantamentos--->
+          <div class="tab-content" id="nav-tabContent-arq">
+            <div class="tab-pane fade p-3" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
+
+              <!--tabela - Levantamentos-->
+              <h5>Levantamentos</h5>
+              <hr>
+              <table class="table table-hover mt-4 align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Proprietário</th>
+                    <th scope="col">Última modif.</th>
+                    <th scope="col">Tamanho</th>
+                    <th scope="col">
+                      <a class="row btn">
+                        <img src="/img/icons/upload.svg" class="p-0" alt="" width="15" height="15">
+                      </a>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lorem ipsum dolor sit amet consectetur adipiscing elit</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/ana.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>25/11/2024</td>
+                    <td>675 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sed vitae arcu cursus nibh ornare vulputate</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>379 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Nulla bibendum urna id est ornare auctor</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>145 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Vivamus in nunc tincidunt, porttitor justo in</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>445 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+          <!--conteudo tab6 - Outros Doc--->
+          <div class="tab-content" id="nav-tabContent-arq">
+            <div class="tab-pane fade p-3" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
+
+              <!--tabela - Outros Doc-->
+              <h5>Outros Documentos</h5>
+              <hr>
+              <table class="table table-hover mt-4 align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Proprietário</th>
+                    <th scope="col">Última modif.</th>
+                    <th scope="col">Tamanho</th>
+                    <th scope="col">
+                      <a class="row btn">
+                        <img src="/img/icons/upload.svg" class="p-0" alt="" width="15" height="15">
+                      </a>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lorem ipsum dolor sit amet consectetur adipiscing elit</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/ana.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>25/11/2024</td>
+                    <td>675 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sed vitae arcu cursus nibh ornare vulputate</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>379 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Nulla bibendum urna id est ornare auctor</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>145 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Vivamus in nunc tincidunt, porttitor justo in</td>
+                    <td>
+                      <a href="">
+                        <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="20" height="20">
+                      </a>
+                    </td>
+                    <td>02/12/2024</td>
+                    <td>445 KB</td>
+                    <td>
+                      <div class="dropdown">
+                        <img src="/img/icons/three-dots.svg" class="rounded-circle dropdown-toggle" href="#"
+                          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/envelope-open.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Abrir
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/download.svg" class="mb-2 me-2" alt="" width="15" height="15">Baixar
+                              uma cópia
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/upload.svg" class="mb-2 me-2" alt="" width="15"
+                                height="15">Substituir nova versão
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/pencil.svg" class="mb-2 me-2" alt="" width="15" height="15">Renomear
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" class="dropdown-item">
+                              <img src="/img/icons/trash3.svg" class="mb-2 me-2" alt="" width="15" height="15">Deletar
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-criar-novo-diretorio"></div>
+  <div id="footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $("#navbar").load("/prototype/components/navbar/navbar.html");
+      $("#modal-criar-novo-diretorio").load("/prototype/components/modal/modal-criar-novo-diretorio.html");
+      $("#footer").load("/prototype/components/footer/footer.html");
+    })
+
+  </script>
+</body>
+
+</html>
