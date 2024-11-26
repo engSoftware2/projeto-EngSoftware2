@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArchSpot - Prancha 01</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+
+  <div class="container">
+
+    <!--CABEÇALHO-->
+    <div class="row mt-2 p-4">
+      <p class="fs-1 font-logo d-flex align-items-center">
+        <a class="btn p-1">
+          <img src="/img/icons/chevron-double-left.svg" alt="" width="30" height="30">
+        </a>
+        Anteprojeto - Prancha01
+      </p>
+      <hr>
+    </div>
+
+    <!--BODY-->
+    <div class="row p-4 mb-4">
+      <div class="col">
+        <div class="bg-white rounded-2 p-4">
+
+          <div class="row">
+            <img src="/img/prancha arq.jpeg" alt="">
+          </div>
+
+          <div class="bg-archspot rounded-2 p-4 mt-4">
+
+            <div class="row d-flex justify-content-between">
+              <div class="col fs-5 fw-medium align-middle">Comentários</div>
+              <div class="col-auto">
+                <a class="btn">
+                  <img src="/img/icons/plus-circle.svg" class="mb-3" alt="" width="20" height="20" data-bs-toggle="modal" data-bs-target="#modalNovoComentario">
+                </a>
+              </div>
+              <hr>
+            </div>
+
+            <!--comentario-->
+            <div class="row d-flex bg-white rounded-2 p-3 align-items-center mb-2">
+              <div class="col-2">
+                <div class="row">
+                  <div class="col-auto">
+                    <a href="">
+                      <img src="/img/personas/fernando.jpeg" class="rounded-circle" alt="" width="40" height="40">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <h5 class="fs-6 fw-medium mb-0">Fernando</h5>
+                    <div class="fs-6">Arquiteto</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col bg-success bg-opacity-10 p-2">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet velit sed justo convallis tristique in sed ante.”
+              </div>
+              <div class="col-auto">
+                11 de nov.
+              </div>
+            </div>
+
+            <!--comentario-->
+            <div class="row d-flex bg-white rounded-2 p-3 align-items-center mb-2">
+              <div class="col-2">
+                <div class="row">
+                  <div class="col-auto">
+                    <a href="">
+                      <img src="/img/personas/beatiz.jpeg" class="rounded-circle" alt="" width="40" height="40">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <h5 class="fs-6 fw-medium mb-0">Beatriz</h5>
+                    <div class="fs-6">Cliente</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col bg-success bg-opacity-10 p-2">
+                “Nam ultricies ligula ac magna malesuada ornare. Mauris ultricies lobortis metus, vitae dictum diam luctus quis. Praesent interdum ultricies finibus. Vestibulum sed sem ex. Nam at egestas nibh, ac mollis turpis.”
+              </div>
+              <div class="col-auto">
+                11 de nov.
+              </div>
+            </div>
+
+            
+
+
+
+          </div>
+
+
+
+
+
+          
+
+
+
+
+
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-novo-comentario"></div>
+  <div id="footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $("#navbar").load("/prototype/components/navbar/navbar.html");
+      $("#modal-novo-comentario").load("/prototype/components/modal/modal-novo-comentario.html");
+      $("#footer").load("/prototype/components/footer/footer.html");
+    })
+
+  </script>
+</body>
+
+</html>
