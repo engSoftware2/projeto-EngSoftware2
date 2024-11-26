@@ -36,19 +36,18 @@
                     <!--nav-tab 1-->
                     <nav>
                         <div class="nav nav-tabs fs-5" id="nav-tab1" role="tablist">
-
                             <button class="nav-link active" id="nav-arq-tab" data-bs-toggle="tab" data-bs-target="#nav-arq" type="button" role="tab" aria-controls="nav-arq" aria-selected="true">
                                 Projeto Arquitetônico
                             </button>
-
                             <button class="nav-link" id="nav-compl-tab" data-bs-toggle="tab" data-bs-target="#nav-compl" type="button" role="tab" aria-controls="nav-compl" aria-selected="true">
                                 Projetos Complementares
                             </button>
-
+                            <a class="btn align-middle">
+                                <img src="/img/icons/plus-circle.svg" alt="" width="20" height="20" data-bs-toggle="modal" data-bs-target="#modalCriarNovoDiretorio">
+                            </a>
                         </div>
                     </nav>
                     
-
                     <!--conteudo 1a nav-tab  projeto arquitetonico--->
                     <div class="tab-content" id="nav-tabContent-arq">
                         <div class="tab-pane fade show active p-3" id="nav-arq" role="tabpanel" aria-labelledby="nav-arq-tab">
@@ -71,6 +70,10 @@
                                     <button class="nav-link" id="nav-arq-det-tab" data-bs-toggle="tab" data-bs-target="#nav-arq-det" type="button" role="tab" aria-controls="nav-arq-det" aria-selected="true">
                                         Detalhamento
                                     </button>
+                                    <a class="btn align-middle">
+                                        <img src="/img/icons/plus-circle.svg" alt="" width="20" height="20" data-bs-toggle="modal" data-bs-target="#modalCriarNovoDiretorio">
+                                    </a>
+                                    
                                 </div>
                             </nav>
 
@@ -1079,8 +1082,6 @@
                                 </div>
                             </div>
 
-
-                            
                         </div>
                     </div>
 
@@ -1103,6 +1104,9 @@
                                     <button class="nav-link" id="nav-compl-paisag-tab" data-bs-toggle="tab" data-bs-target="#nav-compl-paisag" type="button" role="tab" aria-controls="nav-compl-paisag" aria-selected="true">
                                         Pasagismo
                                     </button>
+                                    <a class="btn align-middle">
+                                        <img src="/img/icons/plus-circle.svg" alt="" width="20" height="20" data-bs-toggle="modal" data-bs-target="#modalCriarNovoDiretorio">
+                                    </a>
 
                                 </div>
                             </nav>
@@ -1917,7 +1921,7 @@
         </div>
     </div>
 
-    <div id="modal-criar-novo-album"></div>
+    <div id="modal-criar-novo-diretorio"></div>
     <div id="footer"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -1926,7 +1930,7 @@
     <script>
       $(function() {
         $("#navbar").load("/prototype/components/navbar/navbar.html");
-        $("#modal-criar-novo-album").load("/prototype/components/modal/modal-criar-novo-album.html");
+        $("#modal-criar-novo-diretorio").load("/prototype/components/modal/modal-criar-novo-diretorio.html");
         $("#footer").load("/prototype/components/footer/footer.html");
       })
      
