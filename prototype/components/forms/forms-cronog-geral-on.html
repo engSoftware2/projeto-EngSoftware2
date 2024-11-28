@@ -1,0 +1,59 @@
+<div class="row">
+  <div class="col fs-5 fw-medium" >Gerar relatório - Cronograma Geral</div>
+  <hr class="mt-0">
+</div>
+
+<div class="row">
+  <form class="col">
+    <div class="mb-3">
+      <label for="periodoInicio" class="form-label">De:</label>
+      <input type="date" class="form-control shadow-sm" id="periodoInicio">
+    </div>
+    <div class="mb-3">
+      <label for="periodoFim" class="form-label">Até:</label>
+      <input type="date" class="form-control shadow-sm" id="periodoFim">
+    </div>
+    <div class="mb-3">
+      <label for="status" class="form-label">Status atual:</label>
+      <select class="form-select shadow-sm" id="status">
+        <option value="1" selected>todos</option>
+        <option value="2">em adamento</option>
+        <option value="3">concluído</option>
+        <option value="4">cancelado</option>
+      </select>
+    </div>
+  </form>
+  
+  <form class="col">
+    <div class="mb-3">
+      <label for="cliente" class="form-label">Cliente:</label>
+      <select class="form-select shadow-sm" id="cliente">
+        <option value="1" selected>todos</option>
+        <option value="2">Beatriz</option>
+        <option value="3">Marcelo</option>
+        <option value="4">Fernanda</option>
+        <option value="5">Márcia</option>
+        <option value="6">...</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="projetista" class="form-label">Projetista:</label>
+      <select class="form-select shadow-sm" id="projetista">
+        <option value="1" selected>todos</option>
+        <option value="2">Hélio</option>
+        <option value="3">Rubens</option>
+        <option value="4">Mariana</option>
+        <option value="5">Carlos</option>
+        <option value="6">...</option>
+      </select>
+    </div>
+  </form>
+</div>
+
+<div class="text-end">
+  <button type="submit" class="btn btn-success" onclick="$(() => {
+    $('#forms-cronog-geral').load('/prototype/components/forms/forms-cronog-geral-off.html');
+    $('#table-cronog-geral').load('/prototype/components/table/table-cronog-geral.html');})">
+    Gerar Relatório
+  </button>
+</div>
