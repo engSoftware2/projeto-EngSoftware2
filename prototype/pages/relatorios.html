@@ -69,6 +69,7 @@
               <!--Forms-->
               <div id="forms-cronog-geral"></div>
             
+              <!--Table-->
               <div id="table-cronog-geral"></div>
               
 
@@ -79,32 +80,12 @@
           <div class="tab-content" id="nav-tabContent-arq">
             <div class="tab-pane fade p-3" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
 
-              <h5>Gerar relatório - Cronograma por Projeto</h5>
-              <hr>
-
               <!--Forms-->
-              <div class="row">
-  
-                <form class="col">
-                  <div class="mb-0">
-                    <label for="projeto" class="form-label">Projeto:</label>
-                    <select class="form-select shadow-sm" id="projeto">
-                      <option value="1" selected>selecione</option>
-                      <option value="2">Projeto 01</option>
-                      <option value="3">Projeto 02</option>
-                      <option value="4">Projeto 03</option>
-                      <option value="5">Projeto 04</option>
-                      <option value="6">...</option>
-                    </select>
-                  </div>
-                  
-                </form>
-
-                <div class="col text-end align-self-end">
-                  <button type="submit" class="btn btn-success">Gerar Relatório</button>
-                </div>
-
-              </div>
+              <div id="forms-cronog-proj"></div>
+            
+              <!--Table-->
+              <div id="table-cronog-proj"></div>
+              
 
             </div>
           </div>
@@ -225,6 +206,7 @@
     $(function () {
       $("#navbar").load("/prototype/components/navbar/navbar.html");
       $("#forms-cronog-geral").load("/prototype/components/forms/forms-cronog-geral-on.html");
+      $("#forms-cronog-proj").load("/prototype/components/forms/forms-cronog-proj-on.html");
       $("#modal-criar-novo-diretorio").load("/prototype/components/modal/modal-criar-novo-diretorio.html");
       $("#footer").load("/prototype/components/footer/footer.html");
     })
