@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col fs-5 fw-medium" >Gerar relatório - Financeiro por Projeto</div>
+  <hr class="mt-0">
+</div>
+
+<div class="row">
+  
+  <form class="col">
+    <div class="mb-0">
+      <label for="projeto" class="form-label">Projeto:</label>
+      <select class="form-select shadow-sm" id="projeto">
+        <option value="1" selected>selecione</option>
+        <option value="2">Projeto 01</option>
+        <option value="3">Projeto 02</option>
+        <option value="4">Projeto 03</option>
+        <option value="5">Projeto 04</option>
+        <option value="6">...</option>
+      </select>
+    </div>
+    
+  </form>
+
+  <div class="col text-end align-self-end">
+    <button type="submit" class="btn btn-success" onclick="$(() => {
+      $('#forms-financ-proj').load('/prototype/components/forms/forms-financ-proj-off.html');
+      $('#table-financ-proj').load('/prototype/components/table/table-financ-proj.html');})">
+      Gerar Relatório
+    </button>
+  </div>
+
+</div>
