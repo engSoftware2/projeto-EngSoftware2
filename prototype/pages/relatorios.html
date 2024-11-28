@@ -94,61 +94,13 @@
           <div class="tab-content" id="nav-tabContent-arq">
             <div class="tab-pane fade p-3" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
 
-              <h5>Gerar relatório - Financeiro Geral</h5>
-              <hr>
-              
               <!--Forms-->
-              <div class="row">
-                <form class="col">
-                  <div class="mb-3">
-                    <label for="periodoInicio" class="form-label">De:</label>
-                    <input type="date" class="form-control shadow-sm" id="periodoInicio">
-                  </div>
-                  <div class="mb-3">
-                    <label for="periodoFim" class="form-label">Até:</label>
-                    <input type="date" class="form-control shadow-sm" id="periodoFim">
-                  </div>
-                  <div class="mb-3">
-                    <label for="status" class="form-label">Status atual:</label>
-                    <select class="form-select shadow-sm" id="status">
-                      <option value="1" selected>todos</option>
-                      <option value="2">em adamento</option>
-                      <option value="3">concluído</option>
-                      <option value="4">cancelado</option>
-                    </select>
-                  </div>
-                </form>
-  
-                <form class="col">
-                  <div class="mb-3">
-                    <label for="cliente" class="form-label">Cliente:</label>
-                    <select class="form-select shadow-sm" id="cliente">
-                      <option value="1" selected>todos</option>
-                      <option value="2">Beatriz</option>
-                      <option value="3">Marcelo</option>
-                      <option value="4">Fernanda</option>
-                      <option value="5">Márcia</option>
-                      <option value="6">...</option>
-                    </select>
-                  </div>
-                  <div class="mb-3">
-                    <label for="projetista" class="form-label">Projetista:</label>
-                    <select class="form-select shadow-sm" id="projetista">
-                      <option value="1" selected>todos</option>
-                      <option value="2">Hélio</option>
-                      <option value="3">Rubens</option>
-                      <option value="4">Mariana</option>
-                      <option value="5">Carlos</option>
-                      <option value="6">...</option>
-                    </select>
-                  </div>
-                </form>
+              <div id="forms-financ-geral"></div>
+            
+              <!--Table-->
+              <div id="table-financ-geral"></div>
 
-                <div class="text-end">
-                  <button type="submit" class="btn btn-success">Gerar Relatório</button>
-                </div>
-
-              </div>
+              
 
             </div>
           </div>
@@ -207,6 +159,7 @@
       $("#navbar").load("/prototype/components/navbar/navbar.html");
       $("#forms-cronog-geral").load("/prototype/components/forms/forms-cronog-geral-on.html");
       $("#forms-cronog-proj").load("/prototype/components/forms/forms-cronog-proj-on.html");
+      $("#forms-financ-geral").load("/prototype/components/forms/forms-financ-geral-on.html");
       $("#modal-criar-novo-diretorio").load("/prototype/components/modal/modal-criar-novo-diretorio.html");
       $("#footer").load("/prototype/components/footer/footer.html");
     })
