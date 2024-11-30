@@ -1,0 +1,60 @@
+<div class="modal fade" id="modalEditarEtapaCronog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-4 font-logo" id="staticBackdropLabel">Editar Etapa</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          
+          <div class="row g-3 fw-medium">
+            <form class="col">
+              <div class="mb-3">
+                <label for="campoNome" class="form-label">Nome da Etapa:</label>
+                <input type="text" class="form-control" id="campoNome" aria-describedby="nomeHelp" placeholder="Estudo Preliminar">
+              </div>             
+              
+              <div class="mb-3">
+                <label for="campoDescricao" class="form-label">Duração:</label>
+                <input type="number" class="form-control" id="campoDescricao" aria-describedby="duraçao" placeholder="20 dias">
+              </div>
+
+              <div class="mb-3">
+                <label for="campoDataInicio" class="form-label">Data Início:</label>
+                <input type="date" class="form-control" id="campoDataInicio" aria-describedby="data inicio" value="2024-12-06">
+              </div>
+
+              <div class="mb-3">
+                <label for="campoDataFim" class="form-label">Data Fim:</label>
+                <input type="date" class="form-control" id="campoDataFim" aria-describedby="data fim" value="2025-01-02">
+              </div>
+
+              <div class="mb-3">
+                <label for="campoEtapaPredecessora" class="form-label">Etapa predecessora:</label>
+                <select type="date" class="form-select" id="campoEtapaPredecessora" aria-describedby="etapa predecessora" placeholder="">
+                  <option selected>Selecione uma etapa</option>
+                  <option value="1">Prop. Orçamentária</option>
+                  <option value="2">Assinat. Contrato</option>
+                  <option value="3">Estudo Preliminar</option>
+                  <option value="4">Feedback EP</option>
+                  <option value="5">Anteprojeto</option>
+                  <option value="6">Projeto Legal</option>
+                  <option value="7">Projeto Executivo</option>
+                  <option value="8">Detalhamento</option>
+                </select>
+              </div>
+
+            </form>
+          </div>
+                   
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalEtapasNovoProjeto">Salvar Etapa</button>
+      </div>
+    </div>
+  </div>
+</div>
