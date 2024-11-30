@@ -73,7 +73,17 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 ## Entrega Parcial
 - O **vídeo** de apresentação da entrega parcial pode ser visto [aqui](https://youtu.be/9mBBVEJD43M?si=0aBZlrPVU3hxVvjq).
 
+## Protótipo de Média Fidelidade
+- Acompanhe o desenvolvimento do **protótipo de média fidelidade** [aqui](https://miro.com/app/board/uXjVLWLLZ14=/?share_link_id=709303252073).
+
+## Diagrama Conceitual E/R
+![Diagrama Conceitual E/R](/ref/Archspot-diagramaER-02.jpg)
+- Acesse o quadro online do Diagrama Conceitual E/R [aqui](https://miro.com/app/board/uXjVLWLLZ14=/?share_link_id=132293755861)
+
+## Diagrama de Classes
+![Diagrama de Classes](/ref/Diagrama-Classes-02.png)
+
 ## Pré-requisitos do projeto
  - [x] Mínimo de 5 telas;
- - [ ] Mínimo de 5 tabelas;
- - [ ] Mínimo de 2 relatórios
+ - [x] Mínimo de 5 tabelas;
+ - [x] Mínimo de 2 relatórios
