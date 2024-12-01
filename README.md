@@ -81,7 +81,7 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Acesse o quadro online do Diagrama Conceitual E/R [aqui](https://miro.com/app/board/uXjVLWLLZ14=/?share_link_id=132293755861)
 
 ## Diagrama de Classes
-![Diagrama de Classes](/ref/Diagrama-Classes-02.png)
+![Diagrama de Classes](/ref/Diagrama-Classes-03.png)
 
 ## Pré-requisitos do projeto
  - [x] Mínimo de 5 telas;
