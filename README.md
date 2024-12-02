@@ -83,6 +83,9 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 ## Diagrama de Classes
 ![Diagrama de Classes](/ref/Diagrama-Classes-03.png)
 
+## Entrega Final
+- O **vídeo** de apresentação da entrega final pode ser visto [aqui](https://youtu.be/cdzBimvWOHA)
+
 ## Pré-requisitos do projeto
  - [x] Mínimo de 5 telas;
  - [x] Mínimo de 5 tabelas;
