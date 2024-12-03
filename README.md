@@ -77,11 +77,11 @@ O desenvolvimento da etapa de concepção do projeto consiste na elaboração da
 - Acompanhe o desenvolvimento do **protótipo de média fidelidade** [aqui](https://www.figma.com/proto/P3qQi5f2sbznUPKozKNxap/Projetos-de-Software?node-id=1163-28&node-type=frame&t=CWd8SnobCZ4aEalg-1&scaling=min-zoom&content-scaling=fixed&page-id=1101%3A10&starting-point-node-id=1163%3A28&show-proto-sidebar=1).
 
 ## Diagrama Conceitual E/R
-![Diagrama Conceitual E/R](/ref/Archspot-diagramaER-02.jpg)
+![Diagrama Conceitual E/R](/ref/Archspot-diagramaER-v03_media-resol.jpg)
 - Acesse o quadro online do Diagrama Conceitual E/R [aqui](https://miro.com/app/board/uXjVLWLLZ14=/?share_link_id=132293755861)
 
 ## Diagrama de Classes
-![Diagrama de Classes](/ref/Diagrama-Classes-03.png)
+![Diagrama de Classes](/ref/Diagrama-Classes-v03.png)
 
 ## Entrega Final
 - O **vídeo** de apresentação da entrega final pode ser visto [aqui](https://youtu.be/cdzBimvWOHA)
